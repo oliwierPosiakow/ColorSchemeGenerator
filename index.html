@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="head">
+            <input type="color" id="color-picker" value="#ffffff">
+            <select name="Types" id="scheme-type">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button class="btn" id="generate-btn">Get color scheme</button>
+        </div>
+        <div class="content" id="content" >
+            <div class="color-wrapper">
+                <div class="color" id="color1"></div>
+                <span></span>
+            </div>
+            <div class="color-wrapper">
+                <div class="color" id="color2"></div>
+                <span></span>
+            </div>
+            <div class="color-wrapper">
+                <div class="color" id="color3"></div>
+                <span></span>
+            </div>
+            <div class="color-wrapper">
+                <div class="color" id="color4"></div>
+                <span></span>
+            </div>
+            <div class="color-wrapper">
+                <div class="color" id="color5"></div>
+                <span></span>
+            </div>
+            <div class="color-wrapper">
+                <div class="color" id="color6"></div>
+                <span></span>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

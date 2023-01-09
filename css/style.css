@@ -1,0 +1,72 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(230, 243, 255);
+  background: linear-gradient(208deg, rgb(230, 243, 255) 0%, rgb(245, 244, 241) 100%);
+}
+
+main {
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 10px gray;
+  width: 50vw;
+  min-width: 400px;
+  border-radius: 5px;
+}
+main .head {
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+main .head input {
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 28px;
+}
+main .head #scheme-type, main .head #scheme-type option {
+  font-size: 0.8rem;
+  background: white;
+  box-shadow: 1px 2px 5px lightgray;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+main .head button {
+  font-size: 0.8rem;
+  background: white;
+  box-shadow: 1px 2px 5px lightgray;
+  border: none;
+  border-radius: 5px;
+  font-weight: 300;
+  padding: 0.5em;
+  cursor: pointer;
+}
+main .content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+main .content .color-wrapper {
+  text-align: center;
+}
+main .content .color-wrapper .color {
+  height: 330px;
+  cursor: pointer;
+}
+main .content .color-wrapper span {
+  display: block;
+  margin: 0.5em 0;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: 300;
+}/*# sourceMappingURL=style.css.map */
